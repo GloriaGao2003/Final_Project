@@ -40,6 +40,8 @@ df.head()
 
 1. Is the Test Preparation Course Effective compared to overall average socre.
 ```{python}
+#| messages: false
+#| warnings: false
 sns.boxplot(data=df, x="test_prep", y="avg")
 ```
 The result shows that doing test preparation has effectively affect the overall test score, indicating it is nesscessary to prepare for the exam. 
