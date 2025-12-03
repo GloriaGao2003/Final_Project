@@ -227,13 +227,9 @@ with standard lunch may come from households with greater financial
 stability, better nutrition, and more consistent learning environments,
 which all support academic success.
 
-Another critical aspect is test preparation; on average, the performance
-for students who completed their test prep stood at approximately 7.6
-points higher. It could follow, then, that structured academic support,
-access to study materials, and guided practice meaningfully improve
-performance across subjects.
+Another critical aspect is test preparation; on average, the performance for students who completed their test prep stood at approximately 7.6 points higher. This suggests that structured academic support, access to quality study materials, and guided practice can meaningfully enhance performance across subjects.
 
-Parental education level indicates a clear upward gradient: students
+Parental education level indicates a clear upward trend: students
 whose parents hold a master’s degree perform about 8.6 points higher,
 and bachelor’s degree parents add 7.0 points. Generally speaking, the
 higher the parental education, the higher the academic encouragement,
@@ -242,8 +238,6 @@ resources at home.
 
 The influence of gender is smaller but still meaningful, with girls
 outperforming boys by about 3.7 points, as in the widely observed trends
-in both reading and writing achievement. Together, these findings
-highlight the fact that socioeconomic background (lunch status, parental
-education) and academic support (test preparation) significantly shape
-student performance while demographic factors such as gender add further
-variation.
+in both reading and writing achievement.
+
+Together, these findings highlight the fact that socioeconomic background (lunch status, parental education) and academic support (test preparation) significantly shape student performance while demographic factors such as gender add further variation.
