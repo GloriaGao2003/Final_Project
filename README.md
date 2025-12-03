@@ -39,19 +39,6 @@ df["avg"] = df[["math score","reading score","writing score"]].mean(axis=1)
 df.head()
 ```
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-&#10;    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-&#10;    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-
 |  | gender | race/ethnicity | parental level of education | lunch | test preparation course | math score | reading score | writing score | test_prep | avg |
 |----|----|----|----|----|----|----|----|----|----|----|
 | 0 | female | group B | bachelor's degree | standard | none | 72 | 72 | 74 | 0 | 72.666667 |
@@ -60,7 +47,6 @@ df.head()
 | 3 | male | group A | associate's degree | free/reduced | none | 47 | 57 | 44 | 0 | 49.333333 |
 | 4 | male | group C | some college | standard | none | 76 | 78 | 75 | 0 | 76.333333 |
 
-</div>
 
 ### Visualize
 
