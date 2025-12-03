@@ -150,19 +150,6 @@ df[bool_cols] = df[bool_cols].astype(int)
 df.head()
 ```
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-&#10;    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-&#10;    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-
 |  | gender | lunch | test preparation course | math score | reading score | writing score | test_prep | avg | is_female | lunch_bin | race/ethnicity_group B | race/ethnicity_group C | race/ethnicity_group D | race/ethnicity_group E | parental level of education_high school | parental level of education_associate's degree | parental level of education_some college | parental level of education_bachelor's degree | parental level of education_master's degree |
 |----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
 | 0 | female | standard | none | 72 | 72 | 74 | 0 | 72.666667 | 1 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
@@ -171,7 +158,7 @@ df.head()
 | 3 | male | free/reduced | none | 47 | 57 | 44 | 0 | 49.333333 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
 | 4 | male | standard | none | 76 | 78 | 75 | 0 | 76.333333 | 0 | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
 
-</div>
+
 
 ### Model
 
