@@ -54,8 +54,7 @@ df.head()
 
 ### Visualize
 
-1.  Is the Test Preparation Course Effective compared to overall average
-    socre.
+1.  Examine how participation in the test preparation course relates to students’ overall average performance.
 
 ``` python
 sns.boxplot(data=df, x="test_prep", y="avg")
@@ -63,9 +62,7 @@ sns.boxplot(data=df, x="test_prep", y="avg")
 
 ![](README_files/figure-commonmark/cell-4-output-1.png)
 
-The result shows that doing test preparation has effectively affect the
-overall test score, indicating it is nesscessary to prepare for the
-exam.
+In the boxplot, students labeled one are those who completed the prep course, and they clearly perform better than the students labeled zero who did not. The prepared group shows a higher median score, fewer low outliers. This suggests that structured preparation provides meaningful benefits by improving academic readiness and confidence.
 
 2.  Explore the relationship between gender and each subject’s test
     score.
@@ -160,12 +157,11 @@ df.head()
 
 
 
-### Model
+### Linear Regression Model
+To quantify these relationships, I built a regression model using gender, lunch type, test
+preparation, and parental education. 
 
-Create any type of model to answer a question of your choice.
-
-Question to answer: Which factors most significantly affect students’
-overall academic performance?
+Question to answer: Which factors most significantly affect students’ overall academic performance?
 
 ``` python
 from sklearn.linear_model import LinearRegression
