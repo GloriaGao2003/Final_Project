@@ -1,5 +1,9 @@
 # Final Presentation
 
+### Introduction
+In this project, I analyzed several factors that influence students’ academic performance using
+both visualizations and a regression model. My goal was to explore how characteristics may
+relate to students’ overall average scores.
 
 ### Read
 
